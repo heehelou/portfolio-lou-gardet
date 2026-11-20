@@ -1,4 +1,4 @@
-# Portfolio — Lou Gardet
+# Portfolio · Lou Gardet
 
 Portfolio personnel présentant mes réalisations en courts-métrages, design graphique et motion design.
 
