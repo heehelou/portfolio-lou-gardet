@@ -196,6 +196,15 @@
       transition: transform 300ms ease;
     }
 
+    .poster-card .thumbnail {
+      aspect-ratio: 4 / 5;
+      background: #e2d7c5;
+    }
+
+    .poster-card .thumbnail img {
+      object-fit: contain;
+    }
+
     .card:hover .thumbnail img {
       transform: scale(1.05);
     }
@@ -337,7 +346,7 @@
       <section id="projets" aria-labelledby="projects-title">
         <div class="section-heading">
           <h2 id="projects-title">Projets</h2>
-          <span class="count">08 réalisations</span>
+          <span class="count">11 réalisations</span>
         </div>
 
         <div class="projects">
@@ -439,6 +448,45 @@
     
 
           <h3 class="category-title animation">Design graphique &amp; motion design</h3>
+          <article class="card poster-card">
+            <div class="thumbnail">
+              <img src="assets/design/epione-magazine.png"
+                alt="Affiche magazine Épione représentant une couverture médicale futuriste" />
+            </div>
+            <div class="card-content">
+              <span class="tag">Affiche · Communication</span>
+              <h3>Affiche graphique</h3>
+              <p class="role"><strong>Rôle :</strong> Direction artistique et création graphique</p>
+              <p><strong>Description :</strong> Affiche utilisée comme décor dans le court-métrage Épione.</p>
+            </div>
+          </article>
+
+          <article class="card poster-card">
+            <div class="thumbnail">
+              <img src="assets/design/epione-benefices.png"
+                alt="Affiche promotionnelle Épione présentant les bénéfices du concept" />
+            </div>
+            <div class="card-content">
+              <span class="tag">Affiche · Communication</span>
+              <h3>Affiche graphique</h3>
+              <p class="role"><strong>Rôle :</strong> Direction artistique et création graphique</p>
+              <p><strong>Description :</strong> Affiche utilisée comme décor dans le court-métrage Épione.</p>
+            </div>
+          </article>
+
+          <article class="card poster-card">
+            <div class="thumbnail">
+              <img src="assets/design/event-skate.png"
+                alt="Affiche verte Event Skate avec une skieuse en pleine action" />
+            </div>
+            <div class="card-content">
+              <span class="tag">Affiche · Événement</span>
+              <h3>Event Skate</h3>
+              <p class="role"><strong>Rôle :</strong> Création graphique</p>
+              <p><strong>Description :</strong> Une affiche événementielle pour une session skate à Paris.</p>
+            </div>
+          </article>
+
           <article class="card">
             <a class="thumbnail" href="https://www.youtube.com/watch?v=rHc_LQHNegc" target="_blank" rel="noreferrer">
               <img src="https://i.ytimg.com/vi/rHc_LQHNegc/maxresdefault.jpg"
